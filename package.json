@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.bundle.js",
     "build": "webpack",
-    "dev": "nodemon ./index.js api.se-rmutl.net 4000",
+    "dev": "nodemon ./index.js localhost 4000",
     "prod": "node index.js"
   },
   "repository": {
