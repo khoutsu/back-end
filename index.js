@@ -25,7 +25,7 @@ const init = async () => {
     routes: {
       //cors: true
       cors: {
-        origin: ["Access-Control-Allow-Origin", "10.211.55.7:4000"],
+        origin: ["Access-Control-Allow-Origin", "http://localhost:4000"],
         headers: ["Accept", "Content-Type"],
         additionalHeaders: ["X-Requested-With"],
       },
@@ -95,6 +95,7 @@ const init = async () => {
       cors: {
         origin: ["*"],
         additionalHeaders: ["cache-control", "x-requested-width"],
+        credentials: true,
       },
     },
     handler: async function (request, reply) {
@@ -123,6 +124,7 @@ const init = async () => {
       cors: {
         origin: ["*"],
         additionalHeaders: ["cache-control", "x-requested-width"],
+        credentials: true,
       },
     },
     handler: async function (request, reply) {
@@ -164,6 +166,7 @@ const init = async () => {
       cors: {
         origin: ["*"],
         additionalHeaders: ["cache-control", "x-requested-width"],
+        credentials: true,
       },
     },
     handler: async function (request, reply) {
