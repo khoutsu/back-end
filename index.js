@@ -25,7 +25,7 @@ const init = async () => {
     routes: {
       //cors: true
       cors: {
-        origin: ["Access-Control-Allow-Origin", "192.168.179.111:3000"],
+        origin: ["Access-Control-Allow-Origin", "10.211.55.7:4000"],
         headers: ["Accept", "Content-Type"],
         additionalHeaders: ["X-Requested-With"],
       },
