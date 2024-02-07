@@ -25,11 +25,7 @@ const init = async () => {
         host: '0.0.0.0',
         routes: {
             //cors: true
-            "cors": {
-                "origin": ["Access-Control-Allow-Origin", "https://api.se-rmutl.net/"],
-                "headers": ["Accept", "Content-Type"],
-                "additionalHeaders": ["X-Requested-With"]
-            }
+            "cors": true,
         }
  
     });
