@@ -25,7 +25,7 @@ const init = async () => {
     routes: {
       //cors: true
       cors: {
-        origin: ["Access-Control-Allow-Origin", "http://localhost:4000"],
+        origin: ["Access-Control-Allow-Origin", "https://api.se-rmutl.net/"],
         headers: ["Accept", "Content-Type"],
         additionalHeaders: ["X-Requested-With"],
       },
